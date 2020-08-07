@@ -142,6 +142,58 @@
     .dkien ul li:before {
         bottom: -1px;
     }
+    .time-hs ul li{
+        font-size: 13px;
+    }
+    .time-hs ul{
+        top: 180px;
+        left: 120px;
+    }
+    .title-heading h2{
+        font-size: 24px;
+    }
+    #clockdiv > div{
+        width: 75px;
+    }
+    #clockdiv div > span {
+        padding: 10px;
+        border-radius: 3px;
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'SVN', sans-serif;
+        color: #fff;
+    }
+    .img-dky img, #scrollUp{
+        display: none !important;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        margin-top: 45px;
+    }
+    .oder{
+        order: 2;
+    }
+    .cam-nhan{
+        margin-top: 20px;
+    }
+    .cam-nhan_slides .owl-dot{
+        margin-top: 0px;
+    }
+    .cam-nhan.section_padding_0_100 {
+        padding-bottom: 30px;
+    }
+    .footer-contact-area img{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 40px;
+    }
+    .box-address h2{
+        font-size: 20px;
+    }
+    .coccoc-alo-phone{
+        left: 0px !important
+    }
    
 
 }

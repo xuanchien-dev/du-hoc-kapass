@@ -120,7 +120,7 @@ img {
     margin-top: 60px;
 }
 .mt-35 {
-    margin-top: 35px;
+    margin-top: 80px;
 }
 .mt-100 {
     margin-top: 100px;
@@ -239,7 +239,7 @@ p {
 
 .section-heading {
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 
@@ -469,15 +469,13 @@ p {
     font-size: 16px;
     line-height: 30px;
     color: #250101;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
     position: relative;
     padding-left: 30px;
 }
 .sinh-vien-special ul li:nth-child(5){
+    display: none;
+}
+.time-hs ul li:nth-child(3){
     display: none;
 }
 .box-sv1 li:before,.box-sv2 li:before,.box-sv3 li:before,.box-sv4 li:before{
