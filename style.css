@@ -967,6 +967,10 @@ Footer Area CSS Start
     box-shadow: rgb(0 0 0 / 0%) 0px 20px 30px -20px !important;
     border-bottom: 1px solid #fff;
 }
+.col-12.col-sm-6.col-lg-3{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* ///////////////////////csss-thanh scoll /////////////
 }
  */
