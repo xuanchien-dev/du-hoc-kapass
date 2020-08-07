@@ -717,11 +717,6 @@ p {
     font-weight: bold;
     font-size: 16px;
     color: #000000;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
 }
 .dkien ul li:before{
    position: absolute;
