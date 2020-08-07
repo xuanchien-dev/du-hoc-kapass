@@ -1,0 +1,151 @@
+
+
+
+@media (max-width: 767px){
+    .menu_area #nav .nav-link, .header_area.sticky .menu_area #nav .nav-link{
+        padding: 10px 15px;
+    }
+    .nav-link:before{
+        display: none;
+    }
+    .no-pd{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .sing-up-button.d-lg-none{
+        margin: 30px 0px;
+    }
+    .nav-item {
+        border-bottom: 1px solid #ffffff30;
+    }
+    .nav-item:first-child {
+       margin-top: 20px;
+    }
+    .section-heading > h2{
+        font-size: 20px;
+    }
+    .section_padding_20{
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .section-heading{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .section-heading > h2{
+        line-height: 30px;
+    }
+    .box-sv1 h3, .box-sv2 h3, .box-sv3 h3, .box-sv4 h3{
+        left: 85px;
+        font-size: 16px;
+        top: 17px;
+    }
+    .sinh-vien-special ul {
+        margin-left: 0px;
+    }
+    .box-sv1 li:before, .box-sv2 li:before, .box-sv3 li:before, .box-sv4 li:before{
+        left: 0;
+    }
+    .sigup-sv .sing-up-button > a {
+        height: 50px;
+        min-width: 230px;
+        line-height: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .mt-60{
+        margin-top: 20px;
+    }
+    .box-sv2, .box-sv3, .box-sv4{
+        margin-top: 10px;
+    }
+    .welcome_description_area>img{
+        display: none;
+    }
+    .welcome_description_area h2 {
+        font-size: 25px;
+        color: #fff;
+        margin-top: 30px;
+    }
+   .welcome_description_area h3{
+       font-size: 20px;
+       color: #fff;
+       margin-top: 30px;
+       padding: 5px 20px;
+   }
+   .welcome_description_area h3 img:nth-child(1){
+        margin-right: 10px;
+    }
+    .welcome_description_area h3 img:nth-child(2){
+        margin-left: 10px;
+    }
+    .welcome_description_area h3 img{
+        margin-left: 0px;
+    }
+    .section-heading > h5{
+        font-size: 20px;
+    }
+    .awesome-feature-area .section-heading{
+        margin-bottom: 20px;
+    }
+    .single-feature .tam-giac{
+        left: 45%;
+    }
+    .single-feature span {
+        width: 24%;
+        height: 28%;
+        left: 39%;
+        line-height: 84px;
+    }
+    .section_padding_0_50 {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .footer-contact-area>img{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .dieu-kien-section {
+        background-color: #5a0913;
+        background-image: none; 
+    }
+    .dk h2 {
+        font-size: 16px;
+        top: 15px;
+    }
+    .dk .line-shape {
+        top: 20px;
+    }
+    .time-hs h2 {
+        top: 140px;
+        color: #C93C2E;
+        font-size: 16px;
+    }
+    .dkien h2{
+        left: 98px;
+    }
+    .dkien .line-shape {
+        left: 98px;
+    }
+    .time-hs .line-shape {
+        top: 150px;
+    }
+    .dk ul li{
+        font-size: 13px;
+    }
+     .dk ul{
+        position: absolute;
+        top: 46px;
+        left: 118px;
+    }
+    .dkien ul li:before {
+        bottom: -1px;
+    }
+   
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+.container {
+    max-width: 1200px;
+}
