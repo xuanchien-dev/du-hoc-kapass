@@ -117,7 +117,7 @@
         new WOW().init();
     }
 
-    // :: 8.0 Sticky Active Code
+    // // :: 8.0 Sticky Active Code
     $window.on("scroll", function () {
         if ($window.scrollTop() > 48) {
             $(".header_area").addClass("sticky slideInDown");
@@ -199,3 +199,6 @@ anime
         easing: "easeOutExpo",
         delay: 100,
     });
+$(".nav-item").click(function(){
+  $(".collapse.show").addClass("none");
+});

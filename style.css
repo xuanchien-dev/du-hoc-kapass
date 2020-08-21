@@ -16,11 +16,11 @@ Base CSS Start
 -------------------------- */
 @font-face {
     font-family: 'Roboto';
-    src:url('fonts/Roboto-Medium.ttf');
+    src:url('../fonts/Roboto-Medium.ttf');
 }
 @font-face {
     font-family: 'SVN';
-    src:url('fonts/SVN-Kelson-Sans-Bold.otf');
+    src:url('../fonts/SVN-Kelson-Sans-Bold.otf');
 }
 * {
     margin: 0;
@@ -30,6 +30,7 @@ Base CSS Start
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
+    font-size: 16px;
 }
 
 h1,
@@ -120,7 +121,7 @@ img {
     margin-top: 60px;
 }
 .mt-35 {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .mt-100 {
     margin-top: 100px;
@@ -446,7 +447,8 @@ p {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
+    flex-wrap: wrap;
     -webkit-box-orient: vertical;
     max-width: 72%;
 }
@@ -666,16 +668,15 @@ p {
    position: relative;
    background-color: #fff;
    background-image: url(images/bn-dk.jpg);
-   background-size: 100% 100%;
-   background-position: center center;
    min-height: 610px;
    width: 100%;
+   background-repeat: no-repeat;
+   bottom: 0px;
 }
 .dieu-kien-section img:nth-child(1){
     bottom: 0px;
     margin: 0 auto;
     display: block;
-    width: 100%;
 }
 .img-right img{
     position: relative;
@@ -727,15 +728,15 @@ p {
    background-repeat: no-repeat;
 }
 .time-hs h2{
-    top: 235px;
+    top: 200px;
     color: #C93C2E;
 }
 .time-hs .line-shape{
     background-color: #C93C2E;
-    top: 255px;
+    top: 220px;
 }
 .time-hs ul{
-     top: 300px;
+     top: 255px;
 }
 .time-hs ul li:before{
    position: absolute;
@@ -971,7 +972,8 @@ Footer Area CSS Start
     display: flex;
     flex-wrap: wrap;
 }
-/* ///////////////////////csss-thanh scoll /////////////
+
+/* ///////////////////////csss-thanh scoll //////////////
 }
  */
 /* Track */
@@ -996,4 +998,7 @@ Footer Area CSS Start
 
 ::-webkit-scrollbar-thumb:window-inactive {
     background: #fff;
+}
+.nav-item.none{
+    display: none;
 }
